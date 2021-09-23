@@ -1,0 +1,7 @@
+# First check in git bash what is the HOME location. Open git bash and run
+echo $HOME
+
+# Now change the HOME path by opening cmd and run
+setx HOME "path/to/.ssh/loc" (I gave C:\Users\programmer\github)
+
+# Now cross check by running the echo command in git bash.
